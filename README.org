@@ -1,0 +1,12 @@
+#+STARTUP: showall
+
+#+TITLE: Journal Revision Letter
+
+This repository contains a simple LaTeX template,
+=review-response.tex=, for a journal revision cover letter. The
+template contains two environments, called =revcom= and =response=,
+that are used to explain how the reviewers' (most substantial)
+comments have been addressed. Both of these environments are contained
+in =include/defs.tex=. In addition to the LaTeX template, which
+demonstrates simple usage of these environments, the repository also
+contains a generated sample PDF file, =review-response.pdf=.
