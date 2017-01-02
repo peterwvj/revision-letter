@@ -1,0 +1,44 @@
+
+\documentclass[a4]{article}
+
+% Needed to create links for comments
+\usepackage{hyperref}
+
+% Include the 'reviewer comment' and 'response' environments
+\input{include/defs}
+
+\begin{document}
+\title{Responses to Review Comments on ``Title of Your Paper'' \\
+  \vspace{0.5em} \large \emph{First round of reviewing}}
+\author{First Author \and Second Author \and Third Author}
+
+\maketitle
+
+\setlength\parindent{0pt}
+
+\noindent Introduce the revision letter and acknowledge the reviewers'
+hard work.
+
+\section{Review 1}
+\label{sec:review1}
+
+\begin{revcom}
+  First comment to be addressed.
+\end{revcom}
+
+\begin{response}
+  Here is the response.
+\end{response}
+
+\begin{revcom}[com:second-comment]
+  Second comment to be addressed.
+\end{revcom}
+
+\begin{response}
+  Response to comment~\ref{com:second-comment}.
+\end{response}
+
+\bibliographystyle{splncs03}
+\bibliography{refs}
+
+\end{document} 
